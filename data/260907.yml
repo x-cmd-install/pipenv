@@ -5,7 +5,7 @@ about:
   head: 3f1b272
   archived: false
   latestVersion: "v2026.8.0"
-  collectedAt: 2026-09-07T05:50:17Z
+  collectedAt: 2026-09-07T18:36:55Z
 timeline:
   created: 2017-01-20
   lastCommit: 2026-08-21
@@ -16,7 +16,7 @@ popularity:
   fork: 1877
   release: 135
   contributor: 511
-  pullRequest: 2221
+  pullRequest: 2222
   issue: 4381
 language:
   Python: 8959973
@@ -33,7 +33,7 @@ recent:
     since: 2026-08-08
     release: 1
     mergedPR: 5
-    openPR: 0
+    openPR: 1
     closedIssue: 3
     openIssue: 1
     commit: 18
@@ -41,7 +41,7 @@ recent:
     since: 2026-07-09
     release: 3
     mergedPR: 16
-    openPR: 0
+    openPR: 1
     closedIssue: 9
     openIssue: 1
     commit: 41
@@ -49,7 +49,7 @@ recent:
     since: 2026-06-09
     release: 3
     mergedPR: 17
-    openPR: 0
+    openPR: 1
     closedIssue: 11
     openIssue: 1
     commit: 44
@@ -57,7 +57,7 @@ recent:
     since: 2026-03-11
     release: 14
     mergedPR: 132
-    openPR: 1
+    openPR: 2
     closedIssue: 41
     openIssue: 3
     commit: 427
@@ -65,7 +65,7 @@ recent:
     since: 2025-09-12
     release: 20
     mergedPR: 189
-    openPR: 1
+    openPR: 2
     closedIssue: 63
     openIssue: 3
     commit: 554
@@ -73,20 +73,20 @@ recent:
     since: 2024-09-17
     release: 32
     mergedPR: 268
-    openPR: 1
+    openPR: 2
     closedIssue: 151
     openIssue: 3
     commit: 995
 total:
   release: 135
   mergedPR: 1812
-  openPR: 1
+  openPR: 2
   closedIssue: 4369
   openIssue: 12
   commit: 9858
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipenv
-collectedAt: 2026-09-07T05:50:29Z
+collectedAt: 2026-09-07T18:37:08Z
 loc:
   Python:
     code: 213026
@@ -307,7 +307,7 @@ checks:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/pypi_upload.yml:13'
 ---
 eget:
-  collectedAt: 2026-09-07T05:50:29+00:00
+  collectedAt: 2026-09-07T18:37:09+00:00
   platform:
     darwin/arm64:
       name:  null
