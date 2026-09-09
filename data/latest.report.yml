@@ -7,7 +7,7 @@ about:
   latestVersion: "v2026.8.0"
   latestRelease: "v2026.8.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:58:10Z
+  collectedAt: 2026-09-09T20:31:22Z
 timeline:
   created: 2017-01-20
   lastCommit: 2026-08-21
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-20
   lastPrerelease: 
 popularity:
-  star: 25033
+  star: 25032
   watcher: 352
   fork: 1877
   release: 135
@@ -90,7 +90,7 @@ total:
   commit: 9858
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipenv
-collectedAt: 2026-09-09T05:58:24Z
+collectedAt: 2026-09-09T20:31:40Z
 loc:
   Python:
     code: 213026
