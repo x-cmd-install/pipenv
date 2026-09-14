@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,032 · **Forks**: 1,877 · **Open issues**: 4,381 · **Contributors**: 510
+- **Stars**: 25,032 · **Forks**: 1,879 · **Open issues**: 4,381 · **Contributors**: 510
 
 ## Totals (cumulative)
 
@@ -57,28 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 5 | 1 | 2 | 1 | 18 |
-| last60d | 2026-07-15 | 3 | 15 | 1 | 9 | 1 | 41 |
-| 90d | 2026-06-15 | 3 | 17 | 1 | 11 | 1 | 44 |
-| last180d | 2026-03-17 | 13 | 129 | 2 | 38 | 3 | 427 |
-| 360d | 2025-09-18 | 20 | 189 | 2 | 61 | 3 | 554 |
-| last720d | 2024-09-23 | 32 | 264 | 2 | 149 | 3 | 983 |
-
-## Distribution status
-
-Reported by **65** distros on [repology.org](https://repology.org/project/pipenv). **12** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2026.8.0` | ✅ latest |
-| Debian 14 | `2026.8.0` | ✅ latest |
-| Debian 13 | `2024.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2024.0.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2023.12.1` | ⚠️ outdated |
-| Arch | `2026.6.1` | ⚠️ outdated |
-| Homebrew | `2026.8.0` | ✅ latest |
-| Nix unstable | `2026.5.1` | ⚠️ outdated |
-| Void | `2026.6.2` | ⚠️ outdated |
+| 30d | 2026-08-15 | 1 | 4 | 1 | 2 | 1 | 0 |
+| last60d | 2026-07-16 | 3 | 15 | 1 | 8 | 1 | 39 |
+| 90d | 2026-06-16 | 3 | 17 | 1 | 11 | 1 | 43 |
+| last180d | 2026-03-18 | 13 | 101 | 2 | 38 | 3 | 369 |
+| 360d | 2025-09-19 | 20 | 189 | 2 | 61 | 3 | 554 |
+| last720d | 2024-09-24 | 31 | 264 | 2 | 148 | 3 | 973 |
 
 ## Improve this data
 
@@ -89,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:59:47Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:12:04Z._
