@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 1 | 3 | 2 | 2 | 1 | 0 |
-| last60d | 2026-07-18 | 3 | 14 | 2 | 7 | 1 | 39 |
-| 90d | 2026-06-18 | 3 | 17 | 2 | 11 | 1 | 43 |
-| last180d | 2026-03-20 | 11 | 100 | 3 | 37 | 3 | 369 |
-| 360d | 2025-09-21 | 20 | 189 | 3 | 61 | 3 | 554 |
-| last720d | 2024-09-26 | 31 | 263 | 3 | 147 | 3 | 956 |
+| 30d | 2026-08-18 | 1 | 2 | 2 | 2 | 1 | 0 |
+| last60d | 2026-07-19 | 3 | 13 | 2 | 7 | 1 | 39 |
+| 90d | 2026-06-19 | 3 | 16 | 2 | 11 | 1 | 43 |
+| last180d | 2026-03-21 | 11 | 100 | 3 | 37 | 3 | 369 |
+| 360d | 2025-09-22 | 20 | 189 | 3 | 61 | 3 | 554 |
+| last720d | 2024-09-27 | 31 | 263 | 3 | 145 | 3 | 956 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:19:44Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:19:49Z._
