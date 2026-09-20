@@ -4,7 +4,7 @@
 
  Python Development Workflow for Humans.
 
-![pipenv](https://repo.x-cmd.io/pipenv.svg)
+[![x-cmd/install — pipenv Code Quality Monitoring Repo Card](https://repo.x-cmd.io/pipenv.svg)](https://x-cmd.com/install/pipenv)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,032 · **Forks**: 1,880 · **Open issues**: 4,381 · **Contributors**: 510
+- **Stars**: 25,027 · **Forks**: 1,880 · **Open issues**: 4,381 · **Contributors**: 510
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 2 | 3 | 0 | 1 | 0 |
-| last60d | 2026-07-20 | 3 | 13 | 3 | 7 | 1 | 39 |
-| 90d | 2026-06-20 | 3 | 16 | 3 | 11 | 1 | 43 |
-| last180d | 2026-03-22 | 11 | 96 | 4 | 37 | 3 | 369 |
-| 360d | 2025-09-23 | 20 | 189 | 4 | 61 | 3 | 554 |
-| last720d | 2024-09-28 | 31 | 261 | 4 | 145 | 3 | 956 |
+| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-07-22 | 3 | 13 | 3 | 7 | 1 | 39 |
+| 90d | 2026-06-22 | 3 | 16 | 3 | 11 | 1 | 43 |
+| last180d | 2026-03-24 | 11 | 95 | 4 | 34 | 3 | 369 |
+| 360d | 2025-09-25 | 20 | 189 | 4 | 61 | 3 | 554 |
+| last720d | 2024-09-30 | 30 | 259 | 4 | 145 | 3 | 943 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:14:26Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:02:05Z._
