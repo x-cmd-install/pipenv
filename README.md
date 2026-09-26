@@ -14,11 +14,11 @@ x install pipenv
 
 ## Code insight
 
-Total: **221,180** lines of code across **758** files in the top 5 languages.
+Total: **221,472** lines of code across **759** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 213,026 | 12,548 | 28,467 | 707 |
+| Python | 213,311 | 12,551 | 28,517 | 708 |
 | Html | 4,437 | 12 | 17 | 6 |
 | Toml | 2,058 | 30 | 260 | 6 |
 | Json | 587 | 0 | 0 | 36 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2026.8.0` (2026-08-20)
-- **Last commit**: 2026-08-21
+- **Last commit**: 2026-09-25
 
 ## Popularity
 
-- **Stars**: 25,028 · **Forks**: 1,879 · **Open issues**: 4,381 · **Contributors**: 510
+- **Stars**: 25,029 · **Forks**: 1,880 · **Open issues**: 4,381 · **Contributors**: 512
 
 ## Totals (cumulative)
 
-- **Releases**: 135 · **Merged PRs**: 1812 · **Open PRs**: 4 · **Closed issues**: 4369 · **Open issues**: 12 · **Commits**: 9858
+- **Releases**: 135 · **Merged PRs**: 1815 · **Open PRs**: 1 · **Closed issues**: 4370 · **Open issues**: 11 · **Commits**: 9866
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-07-27 | 3 | 13 | 3 | 7 | 1 | 39 |
-| 90d | 2026-06-27 | 3 | 16 | 3 | 9 | 1 | 41 |
-| last180d | 2026-03-29 | 9 | 51 | 4 | 30 | 3 | 270 |
-| 360d | 2025-09-30 | 20 | 189 | 4 | 61 | 3 | 554 |
-| last720d | 2024-10-05 | 30 | 258 | 4 | 141 | 3 | 939 |
+| 30d | 2026-08-27 | 0 | 3 | 0 | 0 | 1 | 6 |
+| last60d | 2026-07-28 | 3 | 16 | 0 | 7 | 1 | 45 |
+| 90d | 2026-06-28 | 3 | 19 | 0 | 9 | 1 | 47 |
+| last180d | 2026-03-30 | 9 | 51 | 1 | 30 | 3 | 276 |
+| 360d | 2025-10-01 | 20 | 192 | 1 | 61 | 3 | 560 |
+| last720d | 2024-10-06 | 30 | 261 | 1 | 141 | 3 | 947 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:56:17Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:53:47Z._
