@@ -26,11 +26,11 @@ Total: **221,472** lines of code across **759** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.3 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
+- **Code-Review** (3/10) — Found 2/6 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Binary-Artifacts** (3/10) — binaries present in source code
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,027 · **Forks**: 1,881 · **Open issues**: 4,381 · **Contributors**: 512
+- **Stars**: 25,028 · **Forks**: 1,880 · **Open issues**: 4,381 · **Contributors**: 512
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 3 | 0 | 0 | 0 | 6 |
-| last60d | 2026-08-01 | 3 | 16 | 0 | 7 | 1 | 26 |
-| 90d | 2026-07-02 | 3 | 19 | 0 | 9 | 1 | 47 |
-| last180d | 2026-04-03 | 7 | 48 | 1 | 23 | 3 | 266 |
-| 360d | 2025-10-05 | 20 | 192 | 1 | 61 | 3 | 560 |
-| last720d | 2024-10-10 | 30 | 260 | 1 | 138 | 3 | 947 |
+| 30d | 2026-09-01 | 0 | 3 | 0 | 0 | 0 | 6 |
+| last60d | 2026-08-02 | 3 | 16 | 0 | 7 | 1 | 26 |
+| 90d | 2026-07-03 | 3 | 19 | 0 | 9 | 1 | 47 |
+| last180d | 2026-04-04 | 6 | 47 | 1 | 22 | 3 | 266 |
+| 360d | 2025-10-06 | 20 | 192 | 1 | 61 | 3 | 560 |
+| last720d | 2024-10-11 | 30 | 260 | 1 | 138 | 3 | 947 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:32:52Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:51:05Z._

@@ -26,11 +26,11 @@ x install pipenv
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.3 / 10**
+总评分: **5.4 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
+- **Code-Review** (3/10) — Found 2/6 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Binary-Artifacts** (3/10) — binaries present in source code
 
@@ -47,7 +47,7 @@ x install pipenv
 
 ## 流行度
 
-- **Star**: 25,027 · **Fork**: 1,881 · **开放 issue**: 4,381 · **贡献者**: 512
+- **Star**: 25,028 · **Fork**: 1,880 · **开放 issue**: 4,381 · **贡献者**: 512
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install pipenv
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 3 | 0 | 0 | 0 | 6 |
-| last60d | 2026-08-01 | 3 | 16 | 0 | 7 | 1 | 26 |
-| 90d | 2026-07-02 | 3 | 19 | 0 | 9 | 1 | 47 |
-| last180d | 2026-04-03 | 7 | 48 | 1 | 23 | 3 | 266 |
-| 360d | 2025-10-05 | 20 | 192 | 1 | 61 | 3 | 560 |
-| last720d | 2024-10-10 | 30 | 260 | 1 | 138 | 3 | 947 |
+| 30d | 2026-09-01 | 0 | 3 | 0 | 0 | 0 | 6 |
+| last60d | 2026-08-02 | 3 | 16 | 0 | 7 | 1 | 26 |
+| 90d | 2026-07-03 | 3 | 19 | 0 | 9 | 1 | 47 |
+| last180d | 2026-04-04 | 6 | 47 | 1 | 22 | 3 | 266 |
+| 360d | 2025-10-06 | 20 | 192 | 1 | 61 | 3 | 560 |
+| last720d | 2024-10-11 | 30 | 260 | 1 | 138 | 3 | 947 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ pipenv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260930.yml` · 2026-09-30T06:32:53Z._
+_数据快照: `data/card/261001.yml` · 2026-10-01T06:51:07Z._
