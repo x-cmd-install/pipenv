@@ -14,13 +14,13 @@ x install pipenv
 
 ## Code insight
 
-Total: **240,189** lines of code across **802** files in the top 5 languages.
+Total: **240,369** lines of code across **802** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 232,027 | 15,011 | 31,436 | 751 |
+| Python | 232,214 | 14,991 | 31,459 | 751 |
 | Html | 4,437 | 12 | 17 | 6 |
-| Toml | 2,058 | 30 | 260 | 6 |
+| Toml | 2,059 | 31 | 260 | 6 |
 | Json | 586 | 0 | 0 | 36 |
 | ForgeConfig | 258 | 26 | 20 | 3 |
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2026.10.0` (2026-10-17)
+- **Latest**: `v2026.10.1` (2026-10-18)
 - **Last commit**: 2026-10-18
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 138 · **Merged PRs**: 1833 · **Open PRs**: 0 · **Closed issues**: 4376 · **Open issues**: 9 · **Commits**: 10061
+- **Releases**: 139 · **Merged PRs**: 1836 · **Open PRs**: 2 · **Closed issues**: 4377 · **Open issues**: 8 · **Commits**: 10072
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 3 | 17 | 0 | 6 | 0 | 158 |
-| last60d | 2026-08-19 | 4 | 22 | 0 | 7 | 0 | 164 |
-| 90d | 2026-07-20 | 6 | 33 | 0 | 14 | 0 | 226 |
-| last180d | 2026-04-21 | 9 | 61 | 0 | 24 | 1 | 723 |
-| 360d | 2025-10-23 | 23 | 209 | 0 | 62 | 2 | 1137 |
-| last720d | 2024-10-28 | 32 | 272 | 0 | 136 | 2 | 1100 |
+| 30d | 2026-09-19 | 4 | 20 | 2 | 6 | 0 | 175 |
+| last60d | 2026-08-20 | 5 | 23 | 2 | 7 | 0 | 181 |
+| 90d | 2026-07-21 | 7 | 36 | 2 | 14 | 0 | 243 |
+| last180d | 2026-04-22 | 10 | 64 | 2 | 23 | 1 | 740 |
+| 360d | 2025-10-24 | 24 | 212 | 2 | 62 | 2 | 1154 |
+| last720d | 2024-10-29 | 33 | 274 | 2 | 135 | 2 | 1111 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T05:25:30Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T05:31:51Z._
