@@ -14,7 +14,7 @@ x install pipenv
 
 ## Code insight
 
-Total: **240,472** lines of code across **805** files in the top 5 languages.
+Total: **240,467** lines of code across **805** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2026.10.1` (2026-10-18)
+- **Latest**: `v2026.10.2` (2026-10-21)
 - **Last commit**: 2026-10-21
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 139 · **Merged PRs**: 1841 · **Open PRs**: 1 · **Closed issues**: 4378 · **Open issues**: 8 · **Commits**: 10084
+- **Releases**: 140 · **Merged PRs**: 1841 · **Open PRs**: 1 · **Closed issues**: 4378 · **Open issues**: 8 · **Commits**: 10086
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 4 | 25 | 1 | 7 | 0 | 189 |
-| last60d | 2026-08-22 | 4 | 28 | 1 | 8 | 0 | 195 |
-| 90d | 2026-07-23 | 7 | 41 | 1 | 15 | 0 | 257 |
-| last180d | 2026-04-24 | 10 | 66 | 1 | 22 | 1 | 754 |
-| 360d | 2025-10-26 | 24 | 217 | 1 | 63 | 2 | 1168 |
-| last720d | 2024-10-31 | 32 | 271 | 1 | 129 | 2 | 1091 |
+| 30d | 2026-09-22 | 5 | 25 | 1 | 7 | 0 | 191 |
+| last60d | 2026-08-23 | 5 | 28 | 1 | 8 | 0 | 197 |
+| 90d | 2026-07-24 | 8 | 41 | 1 | 15 | 0 | 259 |
+| last180d | 2026-04-25 | 11 | 64 | 1 | 22 | 1 | 756 |
+| 360d | 2025-10-27 | 25 | 217 | 1 | 63 | 2 | 1170 |
+| last720d | 2024-11-01 | 32 | 271 | 1 | 127 | 2 | 1079 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:42:02Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:41:36Z._
