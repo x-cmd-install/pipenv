@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,021 · **Forks**: 1,883 · **Open issues**: 4,386 · **Contributors**: 515
+- **Stars**: 25,019 · **Forks**: 1,883 · **Open issues**: 4,386 · **Contributors**: 515
 
 ## Totals (cumulative)
 
@@ -57,12 +57,28 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 5 | 25 | 1 | 7 | 0 | 191 |
-| last60d | 2026-08-23 | 5 | 28 | 1 | 8 | 0 | 197 |
-| 90d | 2026-07-24 | 8 | 41 | 1 | 15 | 0 | 259 |
-| last180d | 2026-04-25 | 11 | 64 | 1 | 22 | 1 | 756 |
-| 360d | 2025-10-27 | 25 | 217 | 1 | 63 | 2 | 1170 |
-| last720d | 2024-11-01 | 32 | 271 | 1 | 127 | 2 | 1079 |
+| 30d | 2026-09-23 | 5 | 25 | 1 | 7 | 0 | 191 |
+| last60d | 2026-08-24 | 5 | 28 | 1 | 8 | 0 | 197 |
+| 90d | 2026-07-25 | 8 | 41 | 1 | 15 | 0 | 259 |
+| last180d | 2026-04-26 | 11 | 64 | 1 | 22 | 1 | 756 |
+| 360d | 2025-10-28 | 25 | 217 | 1 | 63 | 2 | 1170 |
+| last720d | 2024-11-02 | 32 | 270 | 1 | 127 | 2 | 1074 |
+
+## Distribution status
+
+Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **7** are ✅ on the latest upstream release, **49** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2026.8.0` | ⚠️ outdated |
+| Debian 14 | `2026.8.0` | ⚠️ outdated |
+| Debian 13 | `2024.0.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2024.0.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2023.12.1` | ⚠️ outdated |
+| Arch | `2026.10.2` | ✅ latest |
+| Homebrew | `2026.10.2` | ✅ latest |
+| Nix unstable | `2026.5.1` | ⚠️ outdated |
+| Void | `2026.8.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -73,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:41:36Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:49:51Z._
