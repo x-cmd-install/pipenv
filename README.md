@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,019 · **Forks**: 1,883 · **Open issues**: 4,386 · **Contributors**: 515
+- **Stars**: 25,018 · **Forks**: 1,883 · **Open issues**: 4,386 · **Contributors**: 515
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 5 | 25 | 1 | 7 | 0 | 191 |
-| last60d | 2026-08-24 | 5 | 28 | 1 | 8 | 0 | 197 |
-| 90d | 2026-07-25 | 8 | 41 | 1 | 15 | 0 | 259 |
-| last180d | 2026-04-26 | 11 | 64 | 1 | 22 | 1 | 756 |
-| 360d | 2025-10-28 | 25 | 217 | 1 | 63 | 2 | 1170 |
-| last720d | 2024-11-02 | 32 | 270 | 1 | 127 | 2 | 1074 |
+| 30d | 2026-09-24 | 5 | 25 | 1 | 7 | 0 | 191 |
+| last60d | 2026-08-25 | 5 | 28 | 1 | 8 | 0 | 197 |
+| 90d | 2026-07-26 | 8 | 41 | 1 | 15 | 0 | 259 |
+| last180d | 2026-04-27 | 11 | 62 | 1 | 22 | 1 | 756 |
+| 360d | 2025-10-29 | 25 | 217 | 1 | 63 | 2 | 1170 |
+| last720d | 2024-11-03 | 32 | 270 | 1 | 126 | 2 | 1072 |
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **7** are ✅ on the latest upstream release, **49** are ⚠️ on an older version.
+Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **8** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:49:51Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:37:28Z._
