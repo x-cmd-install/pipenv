@@ -1,12 +1,12 @@
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
   srcname: pipenv
   visiblename: pipenv
-  version: 2025.0.4
+  version: 2024.2.0
   origversion: null
   status: outdated
   summary: Python Development Workflow for Humans
   maintainers:
-    - fallback-mnt-nix@repology
+    - berdario@gmail.com
   licenses:
     - MIT
 - repo: raspbian_stable
@@ -36,42 +36,6 @@
   maintainers:
     - team+python@tracker.debian.org
     - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv-39
-  visiblename: pipenv
-  version: 2025.0.4
-  origversion: null
-  status: legacy
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
-- repo: parabola
-  subrepo: extra
-  srcname: python-pipenv
-  binname: python-pipenv
-  visiblename: python-pipenv
-  version: 2026.10.1
-  origversion: 2026.10.1-1
-  status: outdated
-  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
-  licenses:
-    - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
     - venthur@debian.org
   categories:
     - misc
@@ -293,6 +257,16 @@
     - sunpoet@freebsd.org
   categories:
     - devel
+- repo: msys2_ucrt64
+  srcname: mingw-w64-python-pipenv
+  binname: mingw-w64-ucrt-x86_64-python-pipenv
+  visiblename: mingw-w64-ucrt-x86_64-python-pipenv
+  version: 2026.10.2
+  origversion: 2026.10.2-1
+  status: newest
+  summary: Python Development Workflow for Humans. (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: gentoo_ovl_guru
   srcname: dev-python/pipenv
   visiblename: dev-python/pipenv
@@ -404,9 +378,9 @@
   srcname: python-pipenv
   binname: python-pipenv
   visiblename: python-pipenv
-  version: 2026.10.1
-  origversion: 2026.10.1-1
-  status: outdated
+  version: 2026.10.2
+  origversion: 2026.10.2-1
+  status: newest
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
     - MIT
@@ -441,42 +415,10 @@
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: msys2_ucrt64
-  srcname: mingw-w64-python-pipenv
-  binname: mingw-w64-ucrt-x86_64-python-pipenv
-  visiblename: mingw-w64-ucrt-x86_64-python-pipenv
-  version: 2026.10.2
-  origversion: 2026.10.2-1
-  status: newest
-  summary: Python Development Workflow for Humans. (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: nix_stable_24_05
   srcname: pipenv
   visiblename: pipenv
   version: 2023.2.4
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - berdario@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: pipenv
-  visiblename: pipenv
-  version: 2024.2.0
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - berdario@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: pipenv
-  visiblename: pipenv
-  version: 2024.4.1
   origversion: null
   status: outdated
   summary: Python Development Workflow for Humans
@@ -572,6 +514,42 @@
   summary: Python Development Workflow for Humans.
   categories:
     - Development/Python
+- repo: openindiana
+  subrepo: hipster
+  srcname: pipenv
+  binname: library/python/pipenv-39
+  visiblename: pipenv
+  version: 2025.0.4
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
+  categories:
+    - Development/Python
+- repo: parabola
+  subrepo: extra
+  srcname: python-pipenv
+  binname: python-pipenv
+  visiblename: python-pipenv
+  version: 2026.10.1
+  origversion: 2026.10.1-1
+  status: outdated
+  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
+  licenses:
+    - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: pipenv
@@ -796,5 +774,27 @@
   summary: Python Development Workflow for Humans
   maintainers:
     - leah@vuxu.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: pipenv
+  visiblename: pipenv
+  version: 2024.4.1
+  origversion: null
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - berdario@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: pipenv
+  visiblename: pipenv
+  version: 2025.0.4
+  origversion: null
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - fallback-mnt-nix@repology
   licenses:
     - MIT
