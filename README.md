@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,017 · **Forks**: 1,886 · **Open issues**: 4,387 · **Contributors**: 517
+- **Stars**: 25,019 · **Forks**: 1,886 · **Open issues**: 4,387 · **Contributors**: 517
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 7 | 44 | 4 | 8 | 0 | 270 |
-| last60d | 2026-08-31 | 7 | 47 | 4 | 8 | 0 | 280 |
-| 90d | 2026-08-01 | 10 | 60 | 4 | 16 | 0 | 336 |
-| last180d | 2026-05-03 | 11 | 78 | 4 | 24 | 0 | 827 |
-| 360d | 2025-11-04 | 27 | 236 | 4 | 65 | 1 | 1253 |
-| last720d | 2024-11-09 | 33 | 288 | 4 | 127 | 1 | 1127 |
+| 30d | 2026-10-01 | 7 | 44 | 4 | 8 | 0 | 270 |
+| last60d | 2026-09-01 | 7 | 47 | 4 | 8 | 0 | 280 |
+| 90d | 2026-08-02 | 10 | 60 | 4 | 16 | 0 | 336 |
+| last180d | 2026-05-04 | 11 | 78 | 4 | 24 | 0 | 827 |
+| 360d | 2025-11-05 | 27 | 236 | 4 | 65 | 1 | 1253 |
+| last720d | 2024-11-10 | 33 | 288 | 4 | 127 | 1 | 1127 |
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **2** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **6** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:42:43Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:45:26Z._
