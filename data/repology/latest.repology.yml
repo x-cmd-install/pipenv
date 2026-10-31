@@ -1,17 +1,23 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: pypi
   srcname: pipenv
-  binnames:
-    - pipenv
+  binname: pipenv
   visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1.1
-  status: outdated
+  version: 2026.10.4
+  origversion: null
+  status: newest
+  summary: Python Development Workflow for Humans.
+- repo: aur
+  srcname: python-pipenv-git
+  binname: python-pipenv-git
+  visiblename: python-pipenv-git
+  version: 2025.0.4.r2.gebfefd94e
+  origversion: 2025.0.4.r2.gebfefd94e-1
+  status: rolling
+  summary: Python Development Workflow for Humans.
   maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
-  categories:
-    - misc
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
 - repo: altsisyphus
   srcname: python3-module-pipenv
   binnames:
@@ -38,18 +44,20 @@
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
     - MIT
-- repo: aur
-  srcname: python-pipenv-git
-  binname: python-pipenv-git
-  visiblename: python-pipenv-git
-  version: 2025.0.4.r2.gebfefd94e
-  origversion: 2025.0.4.r2.gebfefd94e-1
-  status: rolling
-  summary: Python Development Workflow for Humans.
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1
+  status: outdated
   maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - python
 - repo: artix
   subrepo: world
   srcname: python-pipenv
@@ -162,6 +170,20 @@
     - venthur@debian.org
   categories:
     - python
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: pipenv
@@ -216,6 +238,20 @@
     - sunpoet@freebsd.org
   categories:
     - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - python
 - repo: gentoo_ovl_guru
   srcname: dev-python/pipenv
   visiblename: dev-python/pipenv
@@ -285,6 +321,21 @@
     - MIT
   categories:
     - dev-python
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2022.12.19
+  origversion: 2022.12.19+ds-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: macports
   srcname: python/pipenv
   binname: pipenv
@@ -337,9 +388,9 @@
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-clang-x86_64-python-pipenv
   visiblename: mingw-w64-clang-x86_64-python-pipenv
-  version: 2026.10.3
-  origversion: 2026.10.3-1
-  status: outdated
+  version: 2026.10.4
+  origversion: 2026.10.4-1
+  status: newest
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -347,9 +398,9 @@
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-clang-aarch64-python-pipenv
   visiblename: mingw-w64-clang-aarch64-python-pipenv
-  version: 2026.10.3
-  origversion: 2026.10.3-1
-  status: outdated
+  version: 2026.10.4
+  origversion: 2026.10.4-1
+  status: newest
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -358,19 +409,34 @@
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-x86_64-python-pipenv
   visiblename: mingw-w64-x86_64-python-pipenv
-  version: 2026.10.3
-  origversion: 2026.10.3-1
-  status: outdated
+  version: 2026.10.4
+  origversion: 2026.10.4-1
+  status: newest
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2024.0.1
+  origversion: 2024.0.1+ds-3
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - python
 - repo: msys2_ucrt64
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-ucrt-x86_64-python-pipenv
   visiblename: mingw-w64-ucrt-x86_64-python-pipenv
-  version: 2026.10.3
-  origversion: 2026.10.3-1
-  status: outdated
+  version: 2026.10.4
+  origversion: 2026.10.4-1
+  status: newest
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -429,20 +495,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
-- repo: solus
-  srcname: pipenv
-  binname: pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - clint@eschberger.info
-  licenses:
-    - MIT
-  categories:
-    - programming.python
 - repo: nix_unstable
   srcname: pipenv
   visiblename: pipenv
@@ -557,21 +609,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2024.0.1
-  origversion: 2024.0.1+ds-3
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot/main
   srcname: pipenv
   binnames:
@@ -586,65 +623,14 @@
     - venthur@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
-  categories:
-    - python
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
-  categories:
-    - python
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: pipenv
   binnames:
     - pipenv
   visiblename: pipenv
   version: 2024.0.1
   origversion: 2024.0.1+ds-3
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - python
-- repo: pypi
-  srcname: pipenv
-  binname: pipenv
-  visiblename: pipenv
-  version: 2026.10.4
-  origversion: null
-  status: newest
-  summary: Python Development Workflow for Humans.
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2022.12.19
-  origversion: 2022.12.19+ds-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -682,6 +668,20 @@
     - venthur@debian.org
   categories:
     - misc
+- repo: solus
+  srcname: pipenv
+  binname: pipenv
+  visiblename: pipenv
+  version: 2026.8.0
+  origversion: null
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - clint@eschberger.info
+  licenses:
+    - MIT
+  categories:
+    - programming.python
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: pipenv

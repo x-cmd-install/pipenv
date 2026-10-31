@@ -7,7 +7,7 @@ about:
   latestVersion: "v2026.10.4"
   latestRelease: "v2026.10.4"
   latestPrerelease: ""
-  collectedAt: 2026-10-30T06:42:20Z
+  collectedAt: 2026-10-31T06:45:06Z
 timeline:
   created: 2017-01-20
   lastCommit: 2026-10-29
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-10-28
   lastPrerelease: 
 popularity:
-  star: 25017
+  star: 25019
   watcher: 346
   fork: 1886
   release: 142
@@ -34,7 +34,7 @@ language:
 totalBytes: 12016445
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 7
     mergedPR: 44
     openPR: 4
@@ -42,7 +42,7 @@ recent:
     openIssue: 0
     commit: 270
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 7
     mergedPR: 47
     openPR: 4
@@ -50,7 +50,7 @@ recent:
     openIssue: 0
     commit: 280
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 10
     mergedPR: 60
     openPR: 4
@@ -58,7 +58,7 @@ recent:
     openIssue: 0
     commit: 336
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 11
     mergedPR: 78
     openPR: 4
@@ -66,7 +66,7 @@ recent:
     openIssue: 0
     commit: 827
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 27
     mergedPR: 236
     openPR: 4
@@ -74,7 +74,7 @@ recent:
     openIssue: 1
     commit: 1253
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 33
     mergedPR: 288
     openPR: 4
@@ -90,7 +90,7 @@ total:
   commit: 10148
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipenv
-collectedAt: 2026-10-30T06:42:35Z
+collectedAt: 2026-10-31T06:45:18Z
 loc:
   Python:
     code: 233504
