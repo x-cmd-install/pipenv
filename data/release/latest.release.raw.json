@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipenv/releases/427245223",
-  "assets_url": "https://api.github.com/repos/pypa/pipenv/releases/427245223/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipenv/releases/427245223/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipenv/releases/tag/v2026.10.4",
-  "id": 427245223,
+  "url": "https://api.github.com/repos/pypa/pipenv/releases/430678330",
+  "assets_url": "https://api.github.com/repos/pypa/pipenv/releases/430678330/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipenv/releases/430678330/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipenv/releases/tag/v2026.10.5",
+  "id": 430678330,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,32 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBL06l84Zdz6n",
-  "tag_name": "v2026.10.4",
+  "node_id": "RE_kwDOBL06l84Zq6E6",
+  "tag_name": "v2026.10.5",
   "target_commitish": "main",
-  "name": "Release v2026.10.4",
+  "name": "Release v2026.10.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-28T22:11:46Z",
-  "updated_at": "2026-10-28T22:12:54Z",
-  "published_at": "2026-10-28T22:12:14Z",
+  "created_at": "2026-11-01T15:40:27Z",
+  "updated_at": "2026-11-01T15:41:18Z",
+  "published_at": "2026-11-01T15:40:50Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipenv/tarball/v2026.10.4",
-  "zipball_url": "https://api.github.com/repos/pypa/pipenv/zipball/v2026.10.4",
-  "body": "## 🤖 AI-Generated Changelog\n\n## Added\n- Added interactive `pipenv init` command for creating a Pipfile with guided prompts\n\n## Fixed\n- Fixed `pipenv install -r` to decode requirements files using the same encoding detection as pip\n- Fixed `pipenv audit` to exit with a non-zero status code when `pip-audit` cannot be run\n- Fixed `pipenv graph` to print the missing virtualenv warning to stderr instead of stdout\n- Fixed `pipenv outdated` to correctly interpolate the required version in skipped-update messages\n- Fixed lockfile replacement to be atomic, preventing corruption on interrupted writes\n- Fixed `pipenv install` to restore the Pipfile byte-for-byte when installation fails, including rolling back changes made by `pipenv init`\n- Fixed Pipfile to be read and written as UTF-8 consistently across all operations\n\n---\n\n🔗 **Full Changelog**: https://github.com/pypa/pipenv/compare/v2026.10.3...v2026.10.4\n"
+  "tarball_url": "https://api.github.com/repos/pypa/pipenv/tarball/v2026.10.5",
+  "zipball_url": "https://api.github.com/repos/pypa/pipenv/zipball/v2026.10.5",
+  "body": "## 🤖 AI-Generated Changelog\n\n## Fixed\n\n- Fixed `--trusted-host` arguments being flagged as secrets in CodeQL security scanning\n- Fixed package name parsing in `pipenv update` to correctly handle requirement specifiers as arguments\n- Fixed `requirements` command to emit `--trusted-host` for sources with `verify_ssl = false`\n- Fixed `requirements` command to correctly join `os_markers` and `markers` with `and`\n- Fixed `requirements` command to preserve markers for git/VCS entries\n- Fixed `uninstall` command to exit with a non-zero code when pip uninstall fails\n- Fixed `uninstall` command to report why it exits 1 when no virtualenv exists\n- Fixed pylock group name normalization and added rejection of category name collisions\n- Fixed pylock to preserve all categories when reading from `pylock.toml`\n- Fixed pylock to keep custom dependency groups in `develop` and `requires-python` as `python_version`\n- Fixed pylock to classify packages correctly based on whether they install for default groups\n- Fixed docs search by replacing stale Algolia search with Sphinx search\n- Fixed integration tests to fail fast when a different `pipenv` version would be tested than the checked-out one\n\n## Changed\n\n- Refactored `--trusted-host` logic to be shared between `requirements` and `install`, preserving environment-variable-defined hosts\n- Raised dependency security version floors and extended Python version support to 3.11–3.15\n- Dropped Python 3.10 support and addressed related code quality findings\n\n## Security\n\n- Raised minimum versions of dependencies to address known security vulnerabilities\n\n---\n\n🔗 **Full Changelog**: https://github.com/pypa/pipenv/compare/v2026.10.4...v2026.10.5\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/pypa/pipenv/releases/430678330/reactions",
+    "total_count": 2,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 1,
+    "eyes": 0
+  }
 }
