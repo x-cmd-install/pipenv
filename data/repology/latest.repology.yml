@@ -1,17 +1,3 @@
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
-  categories:
-    - python
 - repo: pureos_landing
   subrepo: landing/main
   srcname: pipenv
@@ -27,44 +13,6 @@
     - venthur@debian.org
   categories:
     - python
-- repo: altsisyphus
-  srcname: python3-module-pipenv
-  binnames:
-    - python3-module-pipenv
-  visiblename: python3-module-pipenv
-  version: 2026.10.3
-  origversion: 2026.10.3-alt1
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - aibure@altlinux.org
-  licenses:
-    - MIT
-  categories:
-    - Development/Python3
-- repo: arch
-  subrepo: extra
-  srcname: python-pipenv
-  binname: python-pipenv
-  visiblename: python-pipenv
-  version: 2026.10.2
-  origversion: 2026.10.2-1
-  status: outdated
-  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
-  licenses:
-    - MIT
-- repo: aur
-  srcname: python-pipenv-git
-  binname: python-pipenv-git
-  visiblename: python-pipenv-git
-  version: 2025.0.4.r2.gebfefd94e
-  origversion: 2025.0.4.r2.gebfefd94e-1
-  status: rolling
-  summary: Python Development Workflow for Humans.
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
 - repo: artix
   subrepo: world
   srcname: python-pipenv
@@ -120,6 +68,58 @@
     - venthur@debian.org
   categories:
     - misc
+- repo: altsisyphus
+  srcname: python3-module-pipenv
+  binnames:
+    - python3-module-pipenv
+  visiblename: python3-module-pipenv
+  version: 2026.10.3
+  origversion: 2026.10.3-alt1
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - aibure@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Development/Python3
+- repo: arch
+  subrepo: extra
+  srcname: python-pipenv
+  binname: python-pipenv
+  visiblename: python-pipenv
+  version: 2026.10.2
+  origversion: 2026.10.2-1
+  status: outdated
+  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
+  licenses:
+    - MIT
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - python
+- repo: aur
+  srcname: python-pipenv-git
+  binname: python-pipenv-git
+  visiblename: python-pipenv-git
+  version: 2025.0.4.r2.gebfefd94e
+  origversion: 2025.0.4.r2.gebfefd94e-1
+  status: rolling
+  summary: Python Development Workflow for Humans.
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
 - repo: debian_14
   subrepo: forky/main
   srcname: pipenv
@@ -261,9 +261,9 @@
 - repo: homebrew
   srcname: pipenv
   visiblename: pipenv
-  version: 2026.10.4
+  version: 2026.10.5
   origversion: null
-  status: outdated
+  status: newest
   summary: Python dependency management tool
 - repo: homebrew
   srcname: pipenv
@@ -393,14 +393,14 @@
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: pipenv
   binnames:
     - pipenv
   visiblename: pipenv
   version: 11.9.0
-  origversion: 11.9.0-1
+  origversion: 11.9.0-1.1
   status: outdated
   maintainers:
     - python-apps-team@lists.alioth.debian.org
@@ -586,7 +586,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: pipenv
   binnames:
     - pipenv
@@ -601,7 +601,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: pipenv
   binnames:
     - pipenv
