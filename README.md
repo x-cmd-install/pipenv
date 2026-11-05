@@ -14,11 +14,11 @@ x install pipenv
 
 ## Code insight
 
-Total: **241,631** lines of code across **816** files in the top 5 languages.
+Total: **241,619** lines of code across **818** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 233,605 | 14,979 | 31,801 | 765 |
+| Python | 233,588 | 14,974 | 31,800 | 767 |
 | Html | 4,428 | 12 | 17 | 6 |
 | Toml | 1,939 | 33 | 224 | 6 |
 | Json | 586 | 0 | 0 | 36 |
@@ -26,11 +26,11 @@ Total: **241,631** lines of code across **816** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 6/14 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Binary-Artifacts** (0/10) — binaries present in source code
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2026.10.5` (2026-11-01)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-05
 
 ## Popularity
 
-- **Stars**: 25,021 · **Forks**: 1,887 · **Open issues**: 4,387 · **Contributors**: 517
+- **Stars**: 25,021 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 519
 
 ## Totals (cumulative)
 
-- **Releases**: 143 · **Merged PRs**: 1863 · **Open PRs**: 3 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10158
+- **Releases**: 143 · **Merged PRs**: 1867 · **Open PRs**: 1 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10166
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 8 | 47 | 3 | 7 | 0 | 268 |
-| last60d | 2026-09-05 | 8 | 50 | 3 | 8 | 0 | 291 |
-| 90d | 2026-08-06 | 9 | 55 | 3 | 12 | 0 | 323 |
-| last180d | 2026-05-08 | 12 | 81 | 3 | 23 | 0 | 839 |
-| 360d | 2025-11-09 | 28 | 239 | 3 | 65 | 1 | 1266 |
-| last720d | 2024-11-14 | 34 | 291 | 3 | 125 | 1 | 1137 |
+| 30d | 2026-10-06 | 8 | 51 | 1 | 7 | 0 | 277 |
+| last60d | 2026-09-06 | 8 | 54 | 1 | 8 | 0 | 300 |
+| 90d | 2026-08-07 | 9 | 59 | 1 | 12 | 0 | 332 |
+| last180d | 2026-05-09 | 12 | 85 | 1 | 23 | 0 | 848 |
+| 360d | 2025-11-10 | 28 | 243 | 1 | 65 | 1 | 1275 |
+| last720d | 2024-11-15 | 34 | 295 | 1 | 125 | 1 | 1145 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:25:51Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:52:09Z._
