@@ -1,32 +1,25 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: openindiana
+  subrepo: hipster
   srcname: pipenv
-  binnames:
-    - pipenv
+  binname: library/python/pipenv-314
   visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
+  version: 2026.0.3
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
   categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
+    - Development/Python
+- repo: openindiana
+  subrepo: hipster
   srcname: pipenv
-  binnames:
-    - pipenv
+  binname: library/python/pipenv
   visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
+  version: 2026.6.1
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
   categories:
-    - misc
+    - Development/Python
 - repo: altsisyphus
   srcname: python3-module-pipenv
   binnames:
@@ -49,7 +42,7 @@
   visiblename: python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
     - MIT
@@ -177,6 +170,35 @@
     - venthur@debian.org
   categories:
     - python
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2026.8.0
+  origversion: 2026.8.0+ds-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: exherbo
   subrepo: python
   srcname: dev-python/pipenv
@@ -234,7 +256,7 @@
   visiblename: pipenv
   version: 2026.10.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Python dependency management tool
 - repo: homebrew
   srcname: pipenv
@@ -333,24 +355,13 @@
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
     - MIT
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv-314
-  visiblename: pipenv
-  version: 2026.6.2
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
 - repo: msys2_clang64
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-clang-x86_64-python-pipenv
   visiblename: mingw-w64-clang-x86_64-python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -360,7 +371,7 @@
   visiblename: mingw-w64-clang-aarch64-python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -371,7 +382,7 @@
   visiblename: mingw-w64-x86_64-python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -381,7 +392,7 @@
   visiblename: mingw-w64-ucrt-x86_64-python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
@@ -467,7 +478,7 @@
   srcname: pipenv
   binname: library/python/pipenv-314
   visiblename: pipenv
-  version: 2026.0.3
+  version: 2026.6.1
   origversion: null
   status: legacy
   summary: Python Development Workflow for Humans.
@@ -478,9 +489,9 @@
   srcname: pipenv
   binname: library/python/pipenv
   visiblename: pipenv
-  version: 2026.6.1
+  version: 2026.6.2
   origversion: null
-  status: legacy
+  status: outdated
   summary: Python Development Workflow for Humans.
   categories:
     - Development/Python
@@ -488,17 +499,6 @@
   subrepo: hipster
   srcname: pipenv
   binname: library/python/pipenv-314
-  visiblename: pipenv
-  version: 2026.6.1
-  origversion: null
-  status: legacy
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv
   visiblename: pipenv
   version: 2026.6.2
   origversion: null
@@ -524,7 +524,7 @@
   visiblename: python-pipenv
   version: 2026.10.5
   origversion: 2026.10.5-1
-  status: newest
+  status: outdated
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
     - MIT
@@ -619,7 +619,7 @@
   srcname: pipenv
   binname: pipenv
   visiblename: pipenv
-  version: 2026.10.5
+  version: 2026.10.6
   origversion: null
   status: newest
   summary: Python Development Workflow for Humans.
