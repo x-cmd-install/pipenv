@@ -14,7 +14,7 @@ x install pipenv
 
 ## Code insight
 
-Total: **241,619** lines of code across **818** files in the top 5 languages.
+Total: **241,614** lines of code across **818** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,31 +42,31 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2026.10.5` (2026-11-01)
+- **Latest**: `v2026.10.6` (2026-11-05)
 - **Last commit**: 2026-11-05
 
 ## Popularity
 
-- **Stars**: 25,021 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 519
+- **Stars**: 25,020 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 519
 
 ## Totals (cumulative)
 
-- **Releases**: 143 · **Merged PRs**: 1867 · **Open PRs**: 1 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10166
+- **Releases**: 144 · **Merged PRs**: 1867 · **Open PRs**: 2 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10168
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 8 | 51 | 1 | 7 | 0 | 277 |
-| last60d | 2026-09-06 | 8 | 54 | 1 | 8 | 0 | 300 |
-| 90d | 2026-08-07 | 9 | 59 | 1 | 12 | 0 | 332 |
-| last180d | 2026-05-09 | 12 | 85 | 1 | 23 | 0 | 848 |
-| 360d | 2025-11-10 | 28 | 243 | 1 | 65 | 1 | 1275 |
-| last720d | 2024-11-15 | 34 | 295 | 1 | 125 | 1 | 1145 |
+| 30d | 2026-10-07 | 9 | 50 | 2 | 7 | 0 | 279 |
+| last60d | 2026-09-07 | 9 | 53 | 2 | 8 | 0 | 302 |
+| 90d | 2026-08-08 | 10 | 59 | 2 | 12 | 0 | 334 |
+| last180d | 2026-05-10 | 13 | 85 | 2 | 23 | 0 | 850 |
+| 360d | 2025-11-11 | 29 | 243 | 2 | 65 | 1 | 1277 |
+| last720d | 2024-11-16 | 35 | 295 | 2 | 125 | 1 | 1147 |
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **8** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **1** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,8 +75,8 @@ Reported by **63** distros on [repology.org](https://repology.org/project/pipenv
 | Debian 13 | `2024.0.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2024.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2023.12.1` | ⚠️ outdated |
-| Arch | `2026.10.5` | ✅ latest |
-| Homebrew | `2026.10.5` | ✅ latest |
+| Arch | `2026.10.5` | ⚠️ outdated |
+| Homebrew | `2026.10.5` | ⚠️ outdated |
 | Nix unstable | `2026.5.1` | ⚠️ outdated |
 | Void | `2026.8.0` | ⚠️ outdated |
 
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:52:09Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:45:02Z._
