@@ -14,11 +14,11 @@ x install pipenv
 
 ## Code insight
 
-Total: **258,187** lines of code across **854** files in the top 5 languages.
+Total: **258,210** lines of code across **855** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 250,155 | 15,502 | 32,593 | 803 |
+| Python | 250,177 | 15,504 | 32,602 | 804 |
 | Html | 4,428 | 12 | 17 | 6 |
 | Toml | 1,939 | 33 | 224 | 6 |
 | Json | 586 | 0 | 0 | 36 |
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,020 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 519
+- **Stars**: 25,020 · **Forks**: 1,887 · **Open issues**: 4,387 · **Contributors**: 519
 
 ## Totals (cumulative)
 
-- **Releases**: 144 · **Merged PRs**: 1869 · **Open PRs**: 1 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10175
+- **Releases**: 144 · **Merged PRs**: 1870 · **Open PRs**: 1 · **Closed issues**: 4383 · **Open issues**: 4 · **Commits**: 10177
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 9 | 49 | 1 | 5 | 0 | 289 |
-| last60d | 2026-09-08 | 9 | 55 | 1 | 8 | 0 | 312 |
-| 90d | 2026-08-09 | 10 | 61 | 1 | 11 | 0 | 344 |
-| last180d | 2026-05-11 | 13 | 86 | 1 | 23 | 0 | 860 |
-| 360d | 2025-11-12 | 29 | 245 | 1 | 64 | 1 | 1287 |
-| last720d | 2024-11-17 | 35 | 297 | 1 | 125 | 1 | 1154 |
+| 30d | 2026-10-09 | 9 | 49 | 1 | 4 | 0 | 188 |
+| last60d | 2026-09-09 | 9 | 56 | 1 | 8 | 0 | 311 |
+| 90d | 2026-08-10 | 10 | 62 | 1 | 11 | 0 | 343 |
+| last180d | 2026-05-12 | 13 | 81 | 1 | 22 | 0 | 404 |
+| 360d | 2025-11-13 | 29 | 246 | 1 | 64 | 1 | 1290 |
+| last720d | 2024-11-18 | 35 | 297 | 1 | 124 | 1 | 1156 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:57:10Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:02:55Z._
