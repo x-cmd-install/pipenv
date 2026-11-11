@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,020 · **Forks**: 1,887 · **Open issues**: 4,387 · **Contributors**: 519
+- **Stars**: 25,023 · **Forks**: 1,887 · **Open issues**: 4,387 · **Contributors**: 519
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 10 | 49 | 1 | 4 | 0 | 200 |
-| last60d | 2026-09-11 | 10 | 58 | 1 | 8 | 0 | 323 |
-| 90d | 2026-08-12 | 11 | 64 | 1 | 11 | 0 | 355 |
-| last180d | 2026-05-14 | 14 | 82 | 1 | 21 | 0 | 416 |
-| 360d | 2025-11-15 | 30 | 248 | 1 | 64 | 1 | 1302 |
-| last720d | 2024-11-20 | 36 | 299 | 1 | 122 | 1 | 1164 |
+| 30d | 2026-10-12 | 8 | 49 | 1 | 4 | 0 | 200 |
+| last60d | 2026-09-12 | 10 | 58 | 1 | 8 | 0 | 323 |
+| 90d | 2026-08-13 | 11 | 64 | 1 | 11 | 0 | 355 |
+| last180d | 2026-05-15 | 14 | 82 | 1 | 21 | 0 | 416 |
+| 360d | 2025-11-16 | 30 | 248 | 1 | 64 | 1 | 1302 |
+| last720d | 2024-11-21 | 36 | 299 | 1 | 122 | 1 | 1164 |
 
 ## Distribution status
 
-Reported by **65** distros on [repology.org](https://repology.org/project/pipenv). **5** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **65** distros on [repology.org](https://repology.org/project/pipenv). **6** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **65** distros on [repology.org](https://repology.org/project/pipenv
 | Ubuntu 26.04 LTS | `2024.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2023.12.1` | ⚠️ outdated |
 | Arch | `2026.10.5` | ⚠️ outdated |
-| Homebrew | `2026.10.6` | ⚠️ outdated |
+| Homebrew | `2026.11.0` | ✅ latest |
 | Nix unstable | `2026.5.1` | ⚠️ outdated |
 | Void | `2026.8.0` | ⚠️ outdated |
 
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:31:38Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:28:52Z._
