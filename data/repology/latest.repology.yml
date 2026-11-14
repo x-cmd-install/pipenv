@@ -1,40 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2024.0.1
-  origversion: 2024.0.1+ds-3
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - python
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv-39
-  visiblename: pipenv
-  version: 2025.0.4
-  origversion: null
-  status: legacy
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
-- repo: parabola
-  subrepo: extra
-  srcname: python-pipenv
-  binname: python-pipenv
-  visiblename: python-pipenv
-  version: 2026.10.5
-  origversion: 2026.10.5-1
-  status: outdated
-  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
-  licenses:
-    - MIT
 - repo: pardus_21
   subrepo: main
   srcname: pipenv
@@ -72,6 +35,21 @@
   visiblename: pipenv
   version: 2024.0.1
   origversion: 2024.0.1+ds-3
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2026.8.0
+  origversion: 2026.8.0+ds-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -243,21 +221,6 @@
     - venthur@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
 - repo: exherbo
   subrepo: python
   srcname: dev-python/pipenv
@@ -424,20 +387,17 @@
   summary: Python Development Workflow for Humans. (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: openindiana
+  subrepo: hipster
   srcname: pipenv
-  binnames:
-    - pipenv
+  binname: library/python/pipenv-39
   visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
+  version: 2025.0.4
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
   categories:
-    - python
+    - Development/Python
 - repo: msys2_clangarm64
   srcname: mingw-w64-python-pipenv
   binname: mingw-w64-clang-aarch64-python-pipenv
@@ -601,6 +561,31 @@
   summary: Python Development Workflow for Humans.
   categories:
     - Development/Python
+- repo: parabola
+  subrepo: extra
+  srcname: python-pipenv
+  binname: python-pipenv
+  visiblename: python-pipenv
+  version: 2026.10.5
+  origversion: 2026.10.5-1
+  status: outdated
+  summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
+  licenses:
+    - MIT
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - python
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: pipenv
@@ -612,6 +597,21 @@
   status: outdated
   maintainers:
     - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - python
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2024.0.1
+  origversion: 2024.0.1+ds-3
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
     - venthur@debian.org
   categories:
     - python
@@ -820,8 +820,8 @@
   srcname: python3-pipenv
   binname: python3-pipenv
   visiblename: python3-pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0_2
+  version: 2026.9.1
+  origversion: 2026.9.1_1
   status: outdated
   summary: Python Development Workflow for Humans
   maintainers:
