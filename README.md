@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,024 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 520
+- **Stars**: 25,025 · **Forks**: 1,888 · **Open issues**: 4,387 · **Contributors**: 520
 
 ## Totals (cumulative)
 
-- **Releases**: 145 · **Merged PRs**: 1874 · **Open PRs**: 3 · **Closed issues**: 4385 · **Open issues**: 2 · **Commits**: 10190
+- **Releases**: 145 · **Merged PRs**: 1874 · **Open PRs**: 4 · **Closed issues**: 4385 · **Open issues**: 2 · **Commits**: 10190
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 8 | 46 | 3 | 3 | 0 | 134 |
-| last60d | 2026-09-16 | 10 | 59 | 3 | 8 | 0 | 327 |
-| 90d | 2026-08-17 | 11 | 64 | 3 | 11 | 0 | 333 |
-| last180d | 2026-05-19 | 14 | 83 | 3 | 20 | 0 | 413 |
-| 360d | 2025-11-20 | 30 | 250 | 3 | 63 | 1 | 1306 |
-| last720d | 2024-11-25 | 36 | 300 | 3 | 121 | 1 | 1168 |
+| 30d | 2026-10-17 | 8 | 41 | 4 | 2 | 0 | 134 |
+| last60d | 2026-09-17 | 10 | 59 | 4 | 8 | 0 | 327 |
+| 90d | 2026-08-18 | 11 | 63 | 4 | 11 | 0 | 333 |
+| last180d | 2026-05-20 | 14 | 81 | 4 | 20 | 0 | 413 |
+| 360d | 2025-11-21 | 30 | 250 | 4 | 63 | 1 | 1306 |
+| last720d | 2024-11-26 | 36 | 300 | 4 | 121 | 1 | 1166 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:44:56Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:15:34Z._
