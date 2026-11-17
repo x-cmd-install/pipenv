@@ -24,16 +24,6 @@ x install pipenv
 | Json | 586 | 0 | 0 | 36 |
 | ForgeConfig | 258 | 26 | 20 | 3 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **4.8 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (4/10) — Found 6/14 approved changesets -- score normalized to 4
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Binary-Artifacts** (0/10) — binaries present in source code
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/pypa/pipenv>
@@ -47,22 +37,22 @@ x install pipenv
 
 ## 流行度
 
-- **Star**: 25,025 · **Fork**: 1,888 · **开放 issue**: 4,387 · **贡献者**: 520
+- **Star**: 25,024 · **Fork**: 1,889 · **开放 issue**: 4,388 · **贡献者**: 519
 
 ## 累计统计
 
-- **发布数**: 145 · **已合并 PR**: 1874 · **开放 PR**: 4 · **已关闭 issue**: 4385 · **开放 issue**: 2 · **提交数**: 10190
+- **发布数**: 145 · **已合并 PR**: 1873 · **开放 PR**: 5 · **已关闭 issue**: 4385 · **开放 issue**: 3 · **提交数**: 10190
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 8 | 41 | 4 | 2 | 0 | 134 |
-| last60d | 2026-09-17 | 10 | 59 | 4 | 8 | 0 | 327 |
-| 90d | 2026-08-18 | 11 | 63 | 4 | 11 | 0 | 333 |
-| last180d | 2026-05-20 | 14 | 81 | 4 | 20 | 0 | 413 |
-| 360d | 2025-11-21 | 30 | 250 | 4 | 63 | 1 | 1306 |
-| last720d | 2024-11-26 | 36 | 300 | 4 | 121 | 1 | 1166 |
+| 30d | 2026-10-18 | 7 | 35 | 5 | 2 | 1 | 134 |
+| last60d | 2026-09-18 | 10 | 57 | 5 | 8 | 1 | 327 |
+| 90d | 2026-08-19 | 11 | 62 | 5 | 9 | 1 | 333 |
+| last180d | 2026-05-21 | 14 | 80 | 5 | 20 | 1 | 413 |
+| 360d | 2025-11-22 | 30 | 249 | 5 | 63 | 2 | 1306 |
+| last720d | 2024-11-27 | 36 | 299 | 5 | 121 | 2 | 1166 |
 
 ## 发行版状态
 
@@ -89,4 +79,4 @@ pipenv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:15:34Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:34:41Z._
