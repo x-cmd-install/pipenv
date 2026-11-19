@@ -1,5 +1,5 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: pipenv
   binnames:
     - pipenv
@@ -12,15 +12,28 @@
     - ileanadumitrescu95@gmail.com
     - venthur@debian.org
   categories:
-    - misc
-- repo: raspbian_stable
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: python3-pipenv
+  binname: python3-pipenv
+  visiblename: python3-pipenv
+  version: 2026.9.1
+  origversion: 2026.9.1_1
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - leah@vuxu.org
+  licenses:
+    - MIT
+- repo: raspbian_testing
   subrepo: main
   srcname: pipenv
   binnames:
     - pipenv
   visiblename: pipenv
-  version: 2024.0.1
-  origversion: 2024.0.1+ds-3
+  version: 2026.8.0
+  origversion: 2026.8.0+ds-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -91,6 +104,21 @@
     - venthur@debian.org
   categories:
     - misc
+- repo: kali_rolling
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2026.8.0
+  origversion: 2026.8.0+ds-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: pipenv
@@ -142,9 +170,9 @@
   binnames:
     - pipenv
   visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
+  version: 2026.11.0
+  origversion: 2026.11.0+ds-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - ileanadumitrescu95@gmail.com
@@ -198,9 +226,9 @@
   binnames:
     - pipenv
   visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
+  version: 2026.11.0
+  origversion: 2026.11.0+ds-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - ileanadumitrescu95@gmail.com
@@ -273,21 +301,6 @@
   origversion: null
   status: rolling
   summary: Python dependency management tool
-- repo: kali_rolling
-  subrepo: main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-python/pipenv
   visiblename: dev-python/pipenv
@@ -448,6 +461,21 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
+- repo: raspbian_stable
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2024.0.1
+  origversion: 2024.0.1+ds-3
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
 - repo: nix_stable_26_05
   srcname: pipenv
   visiblename: pipenv
@@ -785,46 +813,3 @@
     - venthur@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2026.0.3
-  origversion: 2026.0.3+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: python3-pipenv
-  binname: python3-pipenv
-  visiblename: python3-pipenv
-  version: 2026.9.1
-  origversion: 2026.9.1_1
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - leah@vuxu.org
-  licenses:
-    - MIT
