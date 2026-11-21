@@ -37,7 +37,7 @@ Total: **259,967** lines of code across **860** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 25,024 · **Forks**: 1,890 · **Open issues**: 4,388 · **Contributors**: 521
+- **Stars**: 25,022 · **Forks**: 1,890 · **Open issues**: 4,388 · **Contributors**: 521
 
 ## Totals (cumulative)
 
@@ -47,16 +47,16 @@ Total: **259,967** lines of code across **860** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 6 | 36 | 3 | 2 | 0 | 153 |
-| last60d | 2026-09-21 | 10 | 62 | 3 | 9 | 0 | 346 |
-| 90d | 2026-08-22 | 10 | 65 | 3 | 10 | 0 | 352 |
-| last180d | 2026-05-24 | 14 | 85 | 3 | 21 | 0 | 432 |
-| 360d | 2025-11-25 | 30 | 253 | 3 | 64 | 1 | 1325 |
-| last720d | 2024-11-30 | 36 | 304 | 3 | 122 | 1 | 1182 |
+| 30d | 2026-10-22 | 5 | 36 | 3 | 2 | 0 | 153 |
+| last60d | 2026-09-22 | 10 | 62 | 3 | 9 | 0 | 346 |
+| 90d | 2026-08-23 | 10 | 65 | 3 | 10 | 0 | 352 |
+| last180d | 2026-05-25 | 14 | 85 | 3 | 21 | 0 | 432 |
+| 360d | 2025-11-26 | 30 | 253 | 3 | 64 | 1 | 1325 |
+| last720d | 2024-12-01 | 36 | 304 | 3 | 122 | 1 | 1182 |
 
 ## Distribution status
 
-Reported by **64** distros on [repology.org](https://repology.org/project/pipenv). **10** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
+Reported by **63** distros on [repology.org](https://repology.org/project/pipenv). **10** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,4 +79,4 @@ Install metadata for pipenv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:56:37Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:22:42Z._
