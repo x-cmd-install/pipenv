@@ -1,33 +1,3 @@
-- repo: raspbian_stable
-  subrepo: main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2024.0.1
-  origversion: 2024.0.1+ds-3
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0+ds-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - ileanadumitrescu95@gmail.com
-    - venthur@debian.org
-  categories:
-    - misc
 - repo: openindiana
   subrepo: hipster
   srcname: pipenv
@@ -39,31 +9,6 @@
   summary: Python Development Workflow for Humans.
   categories:
     - Development/Python
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv
-  visiblename: pipenv
-  version: 2026.6.1
-  origversion: null
-  status: legacy
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
-- repo: solus
-  srcname: pipenv
-  binname: pipenv
-  visiblename: pipenv
-  version: 2026.8.0
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - clint@eschberger.info
-  licenses:
-    - MIT
-  categories:
-    - programming.python
 - repo: altsisyphus
   srcname: python3-module-pipenv
   binnames:
@@ -127,20 +72,6 @@
     - venthur@debian.org
   categories:
     - misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: pipenv
-  binnames:
-    - pipenv
-  visiblename: pipenv
-  version: 11.9.0
-  origversion: 11.9.0-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - venthur@debian.org
-  categories:
-    - universe/misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: pipenv
@@ -257,17 +188,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-python
-- repo: openindiana
-  subrepo: hipster
-  srcname: pipenv
-  binname: library/python/pipenv-314
-  visiblename: pipenv
-  version: 2026.6.1
-  origversion: null
-  status: legacy
-  summary: Python Development Workflow for Humans.
-  categories:
-    - Development/Python
 - repo: fedora_39
   subrepo: release
   srcname: pipenv
@@ -351,6 +271,17 @@
     - MIT
   categories:
     - dev-python
+- repo: nix_unstable
+  srcname: pipenv
+  visiblename: pipenv
+  version: 2026.5.1
+  origversion: null
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: dev-python/pipenv
   visiblename: dev-python/pipenv
@@ -384,8 +315,8 @@
   srcname: python-pipenv
   binname: python-pipenv
   visiblename: python-pipenv
-  version: 2026.8.0
-  origversion: 2026.8.0-1
+  version: 2026.10.5
+  origversion: 2026.10.5-1
   status: outdated
   summary: Sacred Marriage of Pipfile, Pip, & Virtualenv.
   licenses:
@@ -508,23 +439,34 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: pipenv
-  visiblename: pipenv
-  version: 2026.5.1
-  origversion: null
-  status: outdated
-  summary: Python Development Workflow for Humans
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
 - repo: openindiana
   subrepo: hipster
   srcname: pipenv
   binname: library/python/pipenv
   visiblename: pipenv
   version: 2026.0.3
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
+  categories:
+    - Development/Python
+- repo: openindiana
+  subrepo: hipster
+  srcname: pipenv
+  binname: library/python/pipenv
+  visiblename: pipenv
+  version: 2026.6.1
+  origversion: null
+  status: legacy
+  summary: Python Development Workflow for Humans.
+  categories:
+    - Development/Python
+- repo: openindiana
+  subrepo: hipster
+  srcname: pipenv
+  binname: library/python/pipenv-314
+  visiblename: pipenv
+  version: 2026.6.1
   origversion: null
   status: legacy
   summary: Python Development Workflow for Humans.
@@ -589,7 +531,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: pipenv
   binnames:
     - pipenv
@@ -604,7 +546,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: pipenv
   binnames:
     - pipenv
@@ -684,6 +626,64 @@
     - venthur@debian.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2024.0.1
+  origversion: 2024.0.1+ds-3
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 2026.11.0
+  origversion: 2026.11.0+ds-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - ileanadumitrescu95@gmail.com
+    - venthur@debian.org
+  categories:
+    - misc
+- repo: solus
+  srcname: pipenv
+  binname: pipenv
+  visiblename: pipenv
+  version: 2026.8.0
+  origversion: null
+  status: outdated
+  summary: Python Development Workflow for Humans
+  maintainers:
+    - clint@eschberger.info
+  licenses:
+    - MIT
+  categories:
+    - programming.python
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: pipenv
+  binnames:
+    - pipenv
+  visiblename: pipenv
+  version: 11.9.0
+  origversion: 11.9.0-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - venthur@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: pipenv
