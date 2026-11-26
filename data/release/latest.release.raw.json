@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipenv/releases/457564253",
-  "assets_url": "https://api.github.com/repos/pypa/pipenv/releases/457564253/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipenv/releases/457564253/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipenv/releases/tag/v2026.12.0",
-  "id": 457564253,
+  "url": "https://api.github.com/repos/pypa/pipenv/releases/458481157",
+  "assets_url": "https://api.github.com/repos/pypa/pipenv/releases/458481157/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipenv/releases/458481157/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipenv/releases/tag/v2026.12.1",
+  "id": 458481157,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBL06l84bReBd",
-  "tag_name": "v2026.12.0",
+  "node_id": "RE_kwDOBL06l84bU94F",
+  "tag_name": "v2026.12.1",
   "target_commitish": "main",
-  "name": "Release v2026.12.0",
+  "name": "Release v2026.12.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-25T02:07:32Z",
-  "updated_at": "2026-11-25T02:09:09Z",
-  "published_at": "2026-11-25T02:08:44Z",
+  "created_at": "2026-11-25T18:19:27Z",
+  "updated_at": "2026-11-25T18:20:17Z",
+  "published_at": "2026-11-25T18:20:00Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipenv/tarball/v2026.12.0",
-  "zipball_url": "https://api.github.com/repos/pypa/pipenv/zipball/v2026.12.0",
-  "body": "## 🤖 AI-Generated Changelog\n\n## Fixed\n\n- Dropped `cache-dir` value from constraint files to prevent invalid constraint file generation\n- Kept extras on file and path dependencies in requirements output\n- Kept `sys_platform` markers on path/file entries when using `--from-pipfile`\n- Preserved literal percent escapes in local file URL conversion; fixed double-decoding of file URLs\n- Stopped Rich from wrapping `--json`, `--json-tree`, and `--bare` graph output\n- Escaped Rich markup in subprocess output displayed during locking and graph errors\n- Kept going and exited non-zero when `pip uninstall` fails during `clean`/`uninstall` operations, rather than stopping silently\n- Showed pip's stderr output when `pip uninstall` fails\n- Used resolved package names for editable installs during uninstall\n- Kept the downloaded requirements file when running `pipenv install -r <url>`\n- Ran the direct `pip install` safety retry using `subprocess.run` in `check`/`scan`\n- Fell back to default values when numeric environment variables contain non-integer values\n- Raised clean errors for malformed `[scripts]` entries instead of cryptic tracebacks\n- Fixed VCS URL handling: no longer appends empty revision for ref-less entries; extras are no longer incorrectly included on VCS URLs; name-discovery parsers now return `None` on malformed input\n- Tolerated `Name:<val>` (no space) metadata format in dependency parsing\n- Fixed missing f-string in vendored subdependency license path\n- Fixed vendoring license download compatibility with Python 3.15 runners\n\n---\n\n🔗 **Full Changelog**: https://github.com/pypa/pipenv/compare/v2026.11.0...v2026.12.0\n"
+  "tarball_url": "https://api.github.com/repos/pypa/pipenv/tarball/v2026.12.1",
+  "zipball_url": "https://api.github.com/repos/pypa/pipenv/zipball/v2026.12.1",
+  "body": "## 🤖 AI-Generated Changelog\n\n## Fixed\n\n- Preserve shorthand markers (e.g., `; sys_platform == 'win32'`) in requirements when using `--no-lock`\n- Normalize package names written to `pylock.toml` to ensure consistent formatting\n- Display pip's stderr output when a package uninstall fails during `pipenv clean`, improving error visibility\n\n---\n\n🔗 **Full Changelog**: https://github.com/pypa/pipenv/compare/v2026.12.0...v2026.12.1\n"
 }
